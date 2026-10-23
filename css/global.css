@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100%;
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+section#home {
+    margin-top: -50px;
+    padding: 160px 20px 100px;
+    height: auto;
+    background-color: #f4f4f4;
+    width: 100%;
+}

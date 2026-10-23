@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .portfolio-item {
+        margin-bottom: 20px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-left {
+        margin-bottom: 20px;
+    }
+
+    .hero-right {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    .hero-right h1 {
+        font-size: 40px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .technologies-section h2 {
+        font-size: 50px;
+    }
+}

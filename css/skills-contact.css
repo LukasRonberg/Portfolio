@@ -1,0 +1,42 @@
+.skills-section, .contact-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.skills-section h2, .contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.skills-grid, .contact-section form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-section label {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}

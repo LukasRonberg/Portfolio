@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lukas Rønberg</title>
+    <meta name="description" content="Lukas Rønberg - test automation engineer and software developer from Copenhagen.">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/skills-contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/technology.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <script src="scripts/translations.js" defer></script>
+    <script src="scripts/language.js" defer></script>
+</head>
+<body>
+    <div class="language-toggle">
+        <button data-language="en" aria-pressed="true"><img src="images/british-flag.webp" alt="English"></button>
+        <button data-language="da" aria-pressed="false"><img src="images/danish-flag.webp" alt="Dansk"></button>
+    </div>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-left">
+                <img src="images/portfoliopicture.jpg" alt="Lukas Rønberg" class="profile-photo">
+            </div>
+            <div class="hero-right">
+                <h1>Lukas Rønberg</h1>
+                <h2 data-i18n="about-title">About Me</h2>
+                <p data-i18n="about-study">
+                    I am currently studying a Professional Bachelor in Software Development at EK (Erhvervsakademi København),
+                    after finishing my degree as a Datamatiker at Cphbusiness Lyngby in 2026. My educational journey has given me
+                    hands-on experience with both front-end and back-end development, working with technologies such as Java,
+                    JavaScript, MySQL, pgAdmin, Spring Boot, Maven, Docker, and PostgreSQL.
+                </p>
+                <p data-i18n="about-magasin">
+                    Alongside my studies, I work at Magasin as a QA and test automation engineer, where I build and maintain
+                    automated UI, integration, end-to-end and regression tests for their retail systems in Java with Selenide, Playwright, TestNG and Allure.
+                </p>
+                <h3 data-i18n="who-title">Who I Am</h3>
+                <p data-i18n="who-person">
+                    As a person, I am engaged and curious, constantly striving to better myself.
+                    I am responsible and good at working independently, yet I also thrive in team environments where I can collaborate and share knowledge.
+                    My approachability and outgoing nature make me comfortable in roles that involve customer interaction and meetings.
+                </p>
+                <p data-i18n="who-attitude">
+                    I am known for my positive attitude and calm demeanor. Friends and colleagues would describe me as sociable and adaptable.
+                    When faced with challenges, I proactively seek solutions rather than waiting for help to arrive.
+                    I am always ready to embrace new challenges, meet new people, and gain new experiences,
+                    continuously doing my best in everything I undertake.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn-with-effect" data-i18n="button-portfolio">View Portfolio</a>
+                    <a href="#skills" class="btn-with-effect" data-i18n="button-skills">View Skills</a>
+                    <a href="#technologies" class="btn-with-effect" data-i18n="button-technologies">View Technologies</a>
+                    <a href="#contact" class="btn-with-effect" data-i18n="button-contact">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <h2 data-i18n="work-title">My Work</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <a href="https://fog.lukasronberg.dk/" target="_blank">
+                    <img src="images/fog-carport.png" alt="Fog Carport">
+                </a>
+                <h3>Fog Carport</h3>
+                <p data-i18n="fog-description">In this project, a system for Fog was redesigned to enable users to design their own carport.</p>
+                <div class="buttons">
+                    <a href="https://fog.lukasronberg.dk/" target="_blank" class="btn-no-effect" data-i18n="fog-button">Visit Project</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/magasinlogo.jpg" alt="Magasin">
+                <h3 data-i18n="magasin-title">Test Automation at Magasin</h3>
+                <p data-i18n="magasin-description">Automated UI, integration, end-to-end and regression tests for Magasin's retail systems, built in Java with Selenide, Playwright, TestNG and Allure, running in GitLab CI with results reported to TestRail.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2 data-i18n="skills-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <h3 data-i18n="skill-test-automation">Test Automation</h3>
+                <p data-i18n="skill-test-automation-text">Building and maintaining automated UI, integration, end-to-end and regression tests in Java with Selenide, Playwright, TestNG and Allure.</p>
+            </div>
+            <div class="skill-item">
+                <h3 data-i18n="skill-web-development">Website Development</h3>
+                <p data-i18n="skill-web-development-text">Proficient in creating structured, responsive, and visually appealing web pages.</p>
+            </div>
+            <div class="skill-item">
+                <h3 data-i18n="skill-deployment">Website Deployment</h3>
+                <p data-i18n="skill-deployment-text">Experienced in deploying websites using various tools and platforms.</p>
+            </div>
+            <div class="skill-item">
+                <h3 data-i18n="skill-client-needs">Client Needs Analysis</h3>
+                <p data-i18n="skill-client-needs-text">Able to analyze and understand clients' needs and wants effectively.</p>
+            </div>
+            <div class="skill-item">
+                <h3 data-i18n="skill-project-management">Project Management</h3>
+                <p data-i18n="skill-project-management-text">Have experience in managing projects and coordinating with team members.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="technologies" class="technologies-section">
+        <h2 data-i18n="technologies-title">Technologies I've Used</h2>
+        <div class="technologies-subsection">
+            <h3 data-i18n="languages-title">Programming Languages</h3>
+            <div class="technologies-grid">
+                <div class="technology-item">C#</div>
+                <div class="technology-item">Java</div>
+                <div class="technology-item">JavaScript</div>
+                <div class="technology-item">SQL</div>
+                <div class="technology-item">HTML</div>
+                <div class="technology-item">CSS</div>
+            </div>
+        </div>
+        <div class="technologies-subsection">
+            <h3 data-i18n="testing-title">Testing</h3>
+            <div class="technologies-grid">
+                <div class="technology-item">Selenide</div>
+                <div class="technology-item">Playwright</div>
+                <div class="technology-item">TestNG</div>
+                <div class="technology-item">Allure</div>
+                <div class="technology-item">TestRail</div>
+            </div>
+        </div>
+        <div class="technologies-subsection">
+            <h3 data-i18n="test-types-title">Test Types</h3>
+            <div class="technologies-grid">
+                <div class="technology-item" data-i18n="test-ui">UI testing</div>
+                <div class="technology-item" data-i18n="test-integration">Integration testing</div>
+                <div class="technology-item" data-i18n="test-end-to-end">End-to-end testing</div>
+                <div class="technology-item" data-i18n="test-regression">Regression testing</div>
+            </div>
+        </div>
+        <div class="technologies-subsection">
+            <h3 data-i18n="ides-title">IDEs</h3>
+            <div class="technologies-grid">
+                <div class="technology-item">Intellij Ultimate</div>
+                <div class="technology-item">Visual Studio</div>
+                <div class="technology-item">Visual Studio Code</div>
+            </div>
+        </div>
+        <div class="technologies-subsection">
+            <h3 data-i18n="tools-title">Tools</h3>
+            <div class="technologies-grid">
+                <div class="technology-item">Maven</div>
+                <div class="technology-item">Docker</div>
+                <div class="technology-item">Github</div>
+                <div class="technology-item">GitLab</div>
+                <div class="technology-item">GitHub Actions</div>
+                <div class="technology-item">GitHub Kanban</div>
+                <div class="technology-item">Trello</div>
+            </div>
+        </div>
+        <div class="technologies-subsection">
+            <h3 data-i18n="databases-title">Databases</h3>
+            <div class="technologies-grid">
+                <div class="technology-item">PostgreSQL</div>
+                <div class="technology-item">MySQL</div>
+                <div class="technology-item">PgAdmin4</div>
+            </div>
+        </div>
+        <div class="technologies-subsection">
+            <h3 data-i18n="frameworks-title">Libraries/Frameworks</h3>
+            <div class="technologies-grid">
+                <div class="technology-item">Spring Boot</div>
+                <div class="technology-item">Thymeleaf</div>
+                <div class="technology-item">Javalin</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 data-i18n="contact-title">Contact Me</h2>
+        <p data-i18n="contact-text">You can reach me at</p>
+        <p>Email: <a href="mailto:lukas.gronberg@gmail.com">lukas.gronberg@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p data-i18n="copyright">&copy; 2026 Lukas Rønberg. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/lukas-r%C3%B8nberg-b9ab32192/">LinkedIn</a>
+            <a href="https://github.com/LukasRonberg">GitHub</a>
+        </div>
+    </footer>
+</body>
+</html>
